@@ -1,18 +1,10 @@
 defmodule QuestradeClient do
   @moduledoc """
-  Documentation for `QuestradeClient`.
-  """
-
-  @doc """
-  Hello world.
+  Questrade REST API Library
 
   ## Examples
-
-      iex> QuestradeClient.hello()
-      :world
-
+      iex> QuestradeClient.Model.Account.list
+      [%QuestradeClient.Model.Account{id: xx, ...}, ...]
+  See under QuestradeClient.Account.
   """
-  def hello do
-    :world
-  end
 end
